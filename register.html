@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register | 042RentDirect</title>
+  <style>
+    body { font-family: sans-serif; display: flex; justify-content: center; padding-top: 50px; }
+    form { display: flex; flex-direction: column; width: 300px; gap: 10px; }
+  </style>
+</head>
+<body>
+
+  <form id="registerForm">
+    <h2>Join 042RentDirect</h2>
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Password" required />
+    <select id="role">
+      <option value="renter">Renter</option>
+      <option value="landlord">Landlord</option>
+    </select>
+    <button type="submit">Sign Up</button>
+  </form>
+
+  <script type="module" src="./auth.js"></script>
+</body>
+</html>
